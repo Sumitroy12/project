@@ -1,0 +1,18 @@
+.sponsor{
+    height: fit-content;
+}
+
+
+.sponsor_data{
+    height: 200px;
+    margin: auto;
+    padding:10px;
+}
+
+.team{
+    margin-top: 4%;
+    font-family: Georgia, serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  }

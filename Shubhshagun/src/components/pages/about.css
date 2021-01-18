@@ -1,0 +1,67 @@
+.about{
+  display: grid;
+  margin-left: 20%;
+margin-right: 20%;
+border:10px solid white;
+background: whitesmoke;
+width: fit-content;
+box-shadow: 0px 0px 32px -3px rgba(0,0,0,0.84);
+}
+
+.about-fluid{
+  background: #ED1111;
+background: -moz-linear-gradient(top, #ED1111 0%, #F7CE28 58%, #FFFFFF 100%);
+background: -webkit-linear-gradient(top, #ED1111 0%, #F7CE28 58%, #FFFFFF 100%);
+background: linear-gradient(to bottom, #ED1111 0%, #F7CE28 58%, #FFFFFF 100%);
+box-shadow: 0px -10px 32px -3px rgba(0,0,0,0.84);
+padding-left: 3%;
+padding-right: 3%;
+}
+
+.text-about{
+  padding-top: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+}
+.team{
+  font-family: Georgia, serif;
+font-size: 25px;
+letter-spacing: 2px;
+word-spacing: 2px;
+}
+
+.team-card{
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  width: 750px;
+  margin-left:auto ;
+  margin-right: auto;
+}
+
+.pro-team{
+  border: 5px inset #A40000;
+border-radius: 10px;
+margin: 25px;
+}
+.pro-team:hover{
+  transform: scale(1.1) translate(-8px, 8px);
+}
+
+.own{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.github{
+  width: 30px;
+  height:30px;
+  margin-left:45% ;
+  margin-right: 60%;
+}
+
+.common{
+  padding-left: 10px;
+  padding-right: 10px;
+}

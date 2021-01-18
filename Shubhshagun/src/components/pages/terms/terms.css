@@ -1,0 +1,7 @@
+.term{
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
+    padding-top: 15px;
+    justify-content: space-between;
+}
