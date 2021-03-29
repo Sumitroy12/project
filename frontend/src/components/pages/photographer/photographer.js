@@ -36,7 +36,7 @@ class photographer extends Component {
       <div>
         <div className="container">
           <div className="control">
-            <center>
+            <center style={{"display":"flex"}}>
               <select class="drop" id="setLocation" value={value} onChange={this.onChange}>
                 {/* <option className="location">Location</option> */}
                 {data.map((item) => {
